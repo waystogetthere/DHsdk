@@ -1,0 +1,41 @@
+﻿生成启动时间为 2017/8/7 10:27:37。
+     1>项目“E:\pj\FINAL\playback-dos\playback-dos.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /GL /D WIN64 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\playback-dos.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /GL /D WIN64 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\playback-dos.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "playback-dos.cpp"
+         playback-dos.cpp
+     1>playback-dos.cpp(27): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>playback-dos.cpp(35): warning C4101: “nStatus”: 未引用的局部变量
+     1>playback-dos.cpp(59): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>playback-dos.cpp(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>playback-dos.cpp(114): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>playback-dos.cpp(116): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>playback-dos.cpp(118): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>playback-dos.cpp(120): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>playback-dos.cpp(148): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>playback-dos.cpp(153): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>playback-dos.cpp(155): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2013\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>playback-dos.cpp(201): warning C4244: “初始化”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>playback-dos.cpp(262): warning C4018: “>”: 有符号/无符号不匹配
+       Link:
+         E:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"x64\Release\playback-dos.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\MZZ\Downloads\696_524592_General_NetSDK_Chn_Win64_IS_V3.48.1.R.170622\NetSDK_Chn_Bin\演示程序源码\分类应用\远程回放\playback-dos" opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib doldetect_dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\pj\FINAL\playback-dos\x64\Release\playback-dos.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\pj\FINAL\playback-dos\x64\Release\playback-dos.lib" /MACHINE:X64 "x64\Release\playback-dos.obj"
+         x64\Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         playback-dos.vcxproj -> E:\pj\FINAL\playback-dos\x64\Release\playback-dos.exe
+     1>已完成生成项目“E:\pj\FINAL\playback-dos\playback-dos.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.02
