@@ -7,6 +7,7 @@
 #include "dhnetsdk.h"
 #include<fstream>
 #pragma comment(lib, "dhnetsdk.lib")
+#pragma comment(lib, "doldetect_dll.lib")
 
 #include "doldetect_dll.h"
 #include <cstdlib>
