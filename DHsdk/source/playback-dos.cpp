@@ -150,9 +150,9 @@ int _tmain(int argc, _TCHAR* argv[])
 			NET_TIME stStartTime = { 0 };
 			NET_TIME stStopTime = { 0 };
 
-			printf("Please input the start time you want to play back(2011-4-6 15:10:55)");
+			printf("Please input the start time of the video you want to download(format:20xx-x-x xx:xx:xx)");
 			scanf("%d-%d-%d %d:%d:%d", &(stStartTime.dwYear), &(stStartTime.dwMonth), &(stStartTime.dwDay), &(stStartTime.dwHour), &(stStartTime.dwMinute), &(stStartTime.dwSecond));
-			printf("Please input the end time you want to query(2011-4-6 15:53:32)");
+			printf("Please input the end time of the video you want to download(format:20xx-x-x xx:xx:xx)");
 			scanf("%d-%d-%d %d:%d:%d", &(stStopTime.dwYear), &(stStopTime.dwMonth), &(stStopTime.dwDay), &(stStopTime.dwHour), &(stStopTime.dwMinute), &(stStopTime.dwSecond));
 
 			//把视频开始时间做一个拷贝，之后用来保存海豚出现时间
@@ -280,11 +280,11 @@ int _tmain(int argc, _TCHAR* argv[])
 		if (bboxes.size() != 0)
 		{
 			dolphin.open("dolphin.txt", ios::ate | ios::out | ios::app);
-			dolphin << "The time is: " << now_year << "-" << now_month << "-" <<now_day<< " " << now_hour<< ":" << now_min << ":" << now_second<< endl;
+			dolphin << "The time: " << now_year << "-" << now_month << "-" <<now_day<< " " << now_hour<< ":" << now_min << ":" << now_second<< endl;
 			dolphin << "The number :" << bboxes.size() << endl;
 			for (size_t i = 0; i < bboxes.size(); ++i)
 			{
-				dolphin << "The " << i + 1 << "th's center is at x: " << bboxes[i].x + bboxes[i].width / 2 << " , y: " << bboxes[i].y + bboxes[i].height / 2 << endl;
+				dolphin << "The " << i + 1 << "th is at x: " << bboxes[i].x + bboxes[i].width / 2 << " , y: " << bboxes[i].y + bboxes[i].height / 2 << endl;
 				dolphin << "x:" << bboxes[i].x << ",y: " << bboxes[i].y << ",width: " << bboxes[i].width << ",height: " << bboxes[i].height << endl;
 			}
 			dolphin << endl;
